@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 50px;
+}
+
+h1,p,span,button{
+    display: block;
+    text-align: center;
+}
+
+p{
+    margin-top: 50px;
+}
+textarea{
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+}
+span{
+    font-size: 30px;
+}
+button{
+    height: 50px;
+    width: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 44%;
+}

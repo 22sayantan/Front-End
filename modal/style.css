@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.content{
+    background-color: lightcyan;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    width: 350px;
+    height: 475px;
+    font-size: 30px;
+}
+
+.close{
+    float: right;
+    font-size: 30px;
+    font-weight: 400;
+    color: lightslategray;
+}
+
+.close:focus,
+.close:hover{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-head{
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.form-body{
+    margin: 10px 15px 20px 15px;
+    padding: 20px 10px 5px 10px;
+    background-color: brown;
+    width: 300px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.form-body input,label{
+    width: 260px;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.btn{
+    position: inherit;
+    float: right;
+    margin-top: 20px;
+}
+.btn button{
+    height: 30px;
+    width: 75px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: blueviolet;
+    color: white;
+}

@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: lightcyan;
+}
+
+.container{
+    background-color: white;
+    padding: 30px 30px;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 40%;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 20px 20px 50px lightgrey;
+    /* border: ; */
+}
+
+.container h1{
+    background-color: rgb(173, 118, 224);
+    color: white;
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-align: center;
+    margin: -25px -25px 0px -25px;
+    border-radius: 5px;
+    padding: 5px 0px;
+    font-weight: 1000;
+}
+
+.container .display{
+    /* border: 1px solid black; */
+    width: 320px;
+    display: inline-flex;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 15px lightgrey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.display .status{
+    padding: 5px 20px;
+}
+
+.status #result{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.status #category{
+    width: 100px;
+}
+
+.emoji{
+    margin-left: 25%;
+    padding: 7px 15px 0px 15px;
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.form{
+    padding: 15px;
+}
+
+.form #height,#weight{
+    width: 75px;
+    height: 25px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.form #btn{
+    height: 30px;
+    width: 75px;
+    background-color: chartreuse;
+    display: block;
+    margin: 20px 0px 0px 40%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(90, 199, 90);
+    border: none;
+    cursor: pointer;
+}
